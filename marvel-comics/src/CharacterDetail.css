@@ -1,0 +1,19 @@
+.character-detail {
+    max-width: 600px;
+    margin-left: 20px;
+  }
+  
+  .detail-placeholder {
+    margin-left: 20px;
+    font-style: italic;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  

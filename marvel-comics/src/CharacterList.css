@@ -1,0 +1,21 @@
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .character-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-align: center;
+  }
+  
+  .character-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .character-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
